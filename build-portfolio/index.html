@@ -14,11 +14,11 @@
 </head>
 <nav class="nav sticky-top justify-content-left container-fluid bg-dark navbar-dark">
     <a class="nav-link" href="#"><i class="fa fa-hdd-o"></i> About</a>
-    <a class="nav-link" href="#">Portfolio</a>
+    <a class="nav-link" href="#middle">Portfolio</a>
     <a class="nav-link" href="#">Contact</a>
 </nav>
-<div class="row bg-light">
-    <div class="col-sm-8"><img src="usuario.png" alt="foto de usuario" class="rounded-circle float-left img-fluid">
+<div id="about" class="row bg-light">
+    <div class="col-sm-8"><img id="profile" src="usuario.png" alt="foto de usuario" class="rounded-circle float-left img-fluid">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto deserunt sequi aut, omnis eius iusto ea laborum, assumenda doloremque reiciendis non. Recusandae eligendi tempore maiores repudiandae quod, ipsam modi! Minus.</p>
         <hr />
         <p>¿Se ve?</p>
@@ -26,6 +26,55 @@
     <div class="col-sm-4">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore soluta odio mollitia necessitatibus animi eligendi, dolorum molestias adipisci distinctio facere facilis quia ipsa unde vel at praesentium a quo quae.Facere odio hic quaerat?
             At est suscipit impedit esse sunt fuga, mollitia labore laudantium vero nostrum temporibus laborum sequi earum voluptas numquam consequatur? Debitis ad optio veniam officia, error provident.</p>
+    </div>
+</div>
+
+<div class="row" id="middle">
+    <h1 class="col-sm-12 text-center" id="portfolio-title">Portfolio</h1>
+    <hr class="col-sm-12" />
+    <div class="col-sm-6">
+        <p>Guitarrista clásico de formación, profesor de secundaria de profesión.</p>
+        <p>Aprendiendo programación para poder proporcionar experiencias de aprendizaje personalizas.</p>
+        <p>También estoy interesado en musicoterapia</p>
+        <div class="card container" style="width:300px">
+            <img class="card-img-top" src="./my-icons/svg/003-vimeo.svg" alt="Card image" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Web promocional en Vimeo</h4>
+                <p class="card-text">Una pequeña biografía con vídeos de concierto de muestra</p>
+                <a href="https://vimeo.com/jesuslopezdeleyva" target="_blank" class="btn btn-primary btn-block">Ver perfil</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+
+        <div class="card container" style="width:300px">
+            <img class="card-img-top" src="./my-icons/svg/002-linkedin.svg" alt="Card image" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Currículum desactualizado</h4>
+                <p class="card-text">Algún día me esforzaré por mantenerlo</p>
+                <a href="https://www.linkedin.com/in/jesus-l%C3%B3pez-de-leyva-532494a7/" target="_blank" class="btn btn-primary btn-block">Ver perfil</a>
+            </div>
+        </div>
+        <br>
+        <div class="card container" style="width:300px">
+            <img class="card-img-top" src="./my-icons/svg/001-github.svg" alt="Card image" style="width:100%">
+            <div class="card-body">
+                <h4 class="card-title">Perfil en Github</h4>
+                <p class="card-text">De momento sólo hay repositorios de aprendizaje.</p>
+                <a href="https://github.com/deleyva" target="_blank" class="btn btn-primary btn-block">Ver perfil</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="row bg-light">
+    <h1 class="col-sm-12 text-center">Contact</h1>
+    <div class="col-sm-6 container">
+        <form action="" method="post">
+            <label for="nombre">Name  <input type="text" name="nombre" id="nombre"></label>
+            <label for="mail">email  <input type="email" name="mail" id="mail"></label>
+        </form>
     </div>
 </div>
 

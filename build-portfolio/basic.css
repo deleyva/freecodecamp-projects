@@ -2,10 +2,26 @@
     color: white;
 }
 
-img {
+#profile {
     margin: 30px;
 }
 
 p {
     margin: 30px;
+}
+
+#middle {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+}
+
+#portfolio-title {
+    margin: 10px;
+}
+
+#cards-left {
+    margin: 30px;
+}
+
+hr {
+    margin: 0px 50px 10px 50px;
 }
